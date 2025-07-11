@@ -149,3 +149,56 @@ nav ul li a{
     font-weight: bold;
     color: #252432;
 }
+.feedback-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
+
+/* Let’s Get In Touch Section  */
+.get{
+    display: flex;
+    justify-content: space-between;
+     display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.section-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.cloumn{
+    width: 50%;
+}
+ form input[type="name"], form input[type="email"], form textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding : 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.btn-g{
+    background-color: #4E47FF;
+    font-size: bold;
+    border: none;
+    padding: 19px 101px;
+    color: white;
+    border-radius: 10px;
+    height: 62px;
+    width: 497px;
+}
