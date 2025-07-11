@@ -59,6 +59,14 @@ nav ul li a{
     border-radius: 10px;
     height: 48px;
 }
+.btn:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #4E47FF;
+    transform: scale(1.05);
+    border: #4E47FF 1px solid;
+    box-shadow: 0px 4px 4px rgba(13, 6, 102, 0.25);
+}
 /* Banner Style */
 .banner{
     display: block;
@@ -201,4 +209,53 @@ form{
     border-radius: 10px;
     height: 62px;
     width: 497px;
+}
+/* Footer Style */
+.footer {
+  background: #fcfcfc;
+  text-align: center;
+
+
+}
+.f-logo{
+    font-size: 100px;
+    font-weight: black;
+    color: #4E47FF ;
+    margin: 0 auto;
+}
+
+.footer-desc {
+  color: #8987A1;
+  font-size: 16px;
+  margin: 0 auto;
+  
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  padding: 20px ;
+}
+.footer-nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 51px;
+}
+    
+
+.footer-nav a {
+  color: #8987A1;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: #4646ff;
+}
+
+.btn-g:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #4E47FF;
+    transform: scale(1.05);
+    border: #4E47FF 1px solid;
+    box-shadow: 0px 4px 4px rgba(13, 6, 102, 0.25);
 }
