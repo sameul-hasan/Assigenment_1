@@ -135,3 +135,11 @@ nav ul li a{
     color: rgba(0, 0, 0, 50%);
     margin: 0 0;
 }
+
+/* Users’ Feedback Section */
+.feedback-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
