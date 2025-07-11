@@ -114,12 +114,16 @@ nav ul li a{
  /*  <!-- Productive Users Section --> */
  .puser{
     text-align: center;
-    padding: 50px 80px;
+    
     background-color: rgba(78, 71, 255, 10%);
     border-radius: 24px;
     
    
  }
+.pcp{
+    padding: 50px 80px;
+
+}
 
 .puser-title{
     font-size: 38px;
@@ -194,7 +198,6 @@ nav ul li a{
     text-align: center;
     background-color: white;
     gap: 20px;
-    padding: 71px 150px;
     border-radius: 14px;
     
 }
@@ -205,6 +208,9 @@ nav ul li a{
 }
 .focus-description{
     color: rgba(0, 0, 0, 0.521);
+}
+.padd{
+    padding:71px 150px;
 }
 .imgwf{
     margin-top: 20px ;
